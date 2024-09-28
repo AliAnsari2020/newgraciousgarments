@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.card{
+
+
+  width: 20%;
+  transition: all .5s linear;
+  
+  
+
+
+}
+
+
+
+
+
+
+.card:hover{
+
+  transform: translateY(-2%);
+}
+.box{
+        position: relative;
+        
+      
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 15px;
+        
+    }
+
+
+
+    img{
+        width: 100%;
+        transition: all 1s linear;
+    }
+    img.hover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+
+    }
+
+    .box:hover img{
+        opacity: 0;
+    }
+
+
+    .box:hover img.hover{
+        opacity: 1;
+        transform: scale(1.1);
+        outline-offset: 1px solid black;
+        
+
+
+}
+    .star i{
+        align-items: center;
+        justify-content: center;
+      padding-left: 8%;
+      font-size: 15px;
+
+
+    }
+    .para p{
+    
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 2%;
+    }
+
+
+    .buttons a{
+
+      padding: 10px;
+      background-color:black;
+      color: white;
+      text-decoration: none;
+      margin-top: 2%;
+      animation-name: bg;
+      animation:  1s infinite;
+  
+      
+    }
+
+    
+
+
+  
+
+
+
+    .buttons{
+
+      animation: 3s infinite linear;
+      animation-name: zayan;
+    }
+
+
+    @keyframes zayan{
+
+
+from{font-size: 10px;}to{font-size: 15px;}
+}
+
+
+.delivery p{
+
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+  </style>
+<body>
+  <div class="container">
+
+   
+    <div class="card">
+  
+      <div class="box">
+          <img src="im1.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+          <img  class="hover" src="image2.webp" alt="">
+      </div>
+          <div class="para">
+              <p>Pent</p>
+             
+      
+                      <div class="delivery">
+                        <del><p>price 1150</p></del>
+                          <p>Only Rs 999</p>
+  
+                        
+                          
+                            
+                              <div class="star">
+                                  
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+  
+  
+                                  <div class="buttons">
+                                      <a href="#" class="buy">Order Now</a>
+                                
+                                  </div>
+  
+                          
+                              </div>
+                          
+                      </div>
+                  </div>
+      </div>
+    
+    <div class="card">
+  
+      <div class="box">
+          <img src="img4.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+          <img  class="hover" src="img5.webp" alt="">
+      </div>
+          <div class="para">
+              <p>Pent</p>
+             
+      
+                      <div class="delivery">
+
+                    <del><p>price 1150</p></del>
+                          <p>Only Rs 999</p>
+
+
+  
+                        
+                          
+                            
+                              <div class="star">
+                                  
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                  <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+  
+  
+                                  <div class="buttons">
+                                      <a href="#" class="buy">Order Now</a>
+                                      
+                                
+                                  </div>
+  
+                          
+                              </div>
+                          
+                      </div>
+                  </div>
+      </div>
+      <div class="card">
+  
+        <div class="box">
+            <img src="img6.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+            <img  class="hover" src="img7.webp" alt="">
+        </div>
+            <div class="para">
+                <p>Pent</p>
+               
+        
+                        <div class="delivery">
+                            <del><p>price 1150</p></del>
+                            <p>Only Rs 999</p>
+    
+                          
+                            
+                              
+                                <div class="star">
+                                    
+                                    <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                    <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                    <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                    <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                    <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                    <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+    
+    
+                                    <div class="buttons">
+                                        <a href="#" class="buy">Order Now</a>
+                                  
+                                    </div>
+    
+                            
+                                </div>
+                            
+                        </div>
+                    </div>
+        </div>
+        <div class="card">
+  
+          <div class="box">
+              <img src="img8.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+              <img  class="hover" src="img9.webp" alt="">
+          </div>
+              <div class="para">
+                  <p>Pent</p>
+                 
+          
+                          <div class="delivery">
+                            <del><p>price 1150</p></del>
+                              <p>Only Rs 999</p>
+      
+                            
+                              
+                                
+                                  <div class="star">
+                                      
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+      
+      
+                                      <div class="buttons">
+                                          <a href="#" class="buy">Order Now</a>
+                                    
+                                      </div>
+      
+                              
+                                  </div>
+                              
+                          </div>
+                      </div>
+          </div>
+        
+      
+        </div>
+      
+        <div class="container">
+
+          <div class="card">
+        
+            <div class="box">
+                <img src="img12.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+                <img  class="hover" src="img13.webp" alt="">
+            </div>
+                <div class="para">
+                    <p>Pent</p>
+                   
+            
+                            <div class="delivery">
+                                <del><p>price 1150</p></del>
+                                <p>Only Rs 999</p>
+        
+                              
+                                
+                                  
+                                    <div class="star">
+                                        
+                                        <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                        <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                        <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                        <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                        <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                        <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+        
+        
+                                        <div class="buttons">
+                                            <a href="#" class="buy">Order Now</a>
+                                      
+                                        </div>
+        
+                                
+                                    </div>
+                                
+                            </div>
+                        </div>
+            </div>
+            <div class="card">
+        
+              <div class="box">
+                  <img src="img14.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+                  <img  class="hover" src="img15.webp" alt="">
+              </div>
+                  <div class="para">
+                      <p>Pent</p>
+                     
+              
+                              <div class="delivery">
+                                <del><p>price 1150</p></del>
+                                  <p>Only Rs 999</p>
+          
+                                
+                                  
+                                    
+                                      <div class="star">
+                                          
+                                          <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                          <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                          <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                          <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                          <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                          <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+          
+          
+                                          <div class="buttons">
+                                              <a href="#" class="buy">Order Now</a>
+                                        
+                                          </div>
+          
+                                  
+                                      </div>
+                                  
+                              </div>
+                          </div>
+              </div>
+              <div class="card">
+        
+                <div class="box">
+                    <img src="img16.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+                    <img  class="hover" src="img17.webp" alt="">
+                </div>
+                    <div class="para">
+                        <p>Pent</p>
+                       
+                
+                                <div class="delivery">
+                            <del><p>price 1150</p></del>
+                                    <p>Only Rs 999</p>
+            
+                                  
+                                    
+                                      
+                                        <div class="star">
+                                            
+                                            <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                            <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                            <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                            <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                            <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                            <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+            
+            
+                                            <div class="buttons">
+                                                <a href="#" class="buy">Order Now</a>
+                                          
+                                            </div>
+            
+                                    
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                </div>
+              
+            
+              
+       
+
+          <div class="card">
+        
+          <div class="box">
+              <img src="img18.webp" alt="" ><span style="top: 0; left: 0;"> 30% off </span>
+              <img  class="hover" src="img19.webp" alt="">
+          </div>
+              <div class="para">
+                  <p>Pent</p>
+                 
+          
+                          <div class="delivery">
+                            <del><p>price 1150</p></del>
+                              <p>Only Rs 999</p>
+      
+                            
+                              
+                                
+                                  <div class="star">
+                                      
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star" style="color: #e7c418;"></i>
+                                      <i class="fa-solid fa-star-half-alt" style="color: #e7c418;"></i><br><br>
+      
+      
+                                      <div class="buttons">
+                                          <a href="#" class="buy">Order Now</a>
+                                    
+                                      </div>
+      
+                              
+                                  </div>
+                              
+                          </div>
+                      </div>
+          </div>
+          
+       </div>
+
+                  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                  <script>
+                    AOS.init();
+                  </script>
+    
+</body>
+</html>
